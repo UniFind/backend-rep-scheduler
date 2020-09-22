@@ -1,0 +1,39 @@
+{
+  "name": "backend-rep-scheduler",
+  "version": "1.0.0",
+  "description": "this it the backend scheduler for the representative side",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node app.js",
+    "build": "babel ./ -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniFind/backend-rep-scheduler.git"
+  },
+  "keywords": [
+    "scheduler"
+  ],
+  "author": "kim kiamco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniFind/backend-rep-scheduler/issues"
+  },
+  "homepage": "https://github.com/UniFind/backend-rep-scheduler#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
